@@ -7,9 +7,9 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="manifest" href="site.webmanifest">
-		<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+        <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
 
-		<!-- CSS here -->
+        <!-- CSS here -->
             <link rel="stylesheet" href="assets/css/bootstrap.min.css">
             <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
             <link rel="stylesheet" href="assets/css/flaticon.css">
@@ -78,6 +78,7 @@
                                 <div class="main-menu f-right d-none d-lg-block">
                                     <nav>                                                
                                         <ul id="navigation">                                                                                                                                     
+
                                             <li><a href="index.php">Home</a></li>
                                             <li><a href="Event.php">Event</a></li>
                                             <li><a href="#">Vendor</a>
@@ -86,6 +87,34 @@
                                                     <li><a href="becomeVendor.php">Become a Vendor</a></li>
                                                 </ul>
                                             </li>
+
+                                            <li><a href="index.php">Home</a></li>
+                                            <li><a href="Catagori.php">Catagori</a></li>
+                                            <li class="hot"><a href="#">Latest</a>
+                                                <ul class="submenu">
+                                                    <li><a href="product_list.php"> Product list</a></li>
+                                                    <li><a href="single-product.php"> Product Details</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="blog.php">Blog</a>
+                                                <ul class="submenu">
+                                                    <li><a href="blog.php">Blog</a></li>
+                                                    <li><a href="single-blog.php">Blog Details</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">Pages</a>
+                                                <ul class="submenu">
+                                                    <li><a href="login.php">Login</a></li>
+                                                    <li><a href="cart.php">Card</a></li>
+                                                    <li><a href="elements.php">Element</a></li>
+                                                    <li><a href="about.php">About</a></li>
+                                                    <li><a href="confirmation.php">Confirmation</a></li>
+                                                    <li><a href="cart.php">Shopping Cart</a></li>
+                                                    <li><a href="checkout.php">Product Checkout</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="contact.php">Contact</a></li>
+
                                         </ul>
                                     </nav>
                                 </div>
@@ -1131,30 +1160,30 @@
 
    </footer>
    
-	<!-- JS here -->
-	
-		<!-- All JS Custom Plugins Link Here here -->
+    <!-- JS here -->
+    
+        <!-- All JS Custom Plugins Link Here here -->
         <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
-		<!-- Jquery, Popper, Bootstrap -->
-		<script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+        <!-- Jquery, Popper, Bootstrap -->
+        <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
         <script src="./assets/js/popper.min.js"></script>
         <script src="./assets/js/bootstrap.min.js"></script>
-	    <!-- Jquery Mobile Menu -->
+        <!-- Jquery Mobile Menu -->
         <script src="./assets/js/jquery.slicknav.min.js"></script>
 
-		<!-- Jquery Slick , Owl-Carousel Plugins -->
+        <!-- Jquery Slick , Owl-Carousel Plugins -->
         <script src="./assets/js/owl.carousel.min.js"></script>
         <script src="./assets/js/slick.min.js"></script>
 
-		<!-- One Page, Animated-HeadLin -->
+        <!-- One Page, Animated-HeadLin -->
         <script src="./assets/js/wow.min.js"></script>
-		<script src="./assets/js/animated.headline.js"></script>
+        <script src="./assets/js/animated.headline.js"></script>
         <script src="./assets/js/jquery.magnific-popup.js"></script>
 
-		<!-- Scrollup, nice-select, sticky -->
+        <!-- Scrollup, nice-select, sticky -->
         <script src="./assets/js/jquery.scrollUp.min.js"></script>
         <script src="./assets/js/jquery.nice-select.min.js"></script>
-		<script src="./assets/js/jquery.sticky.js"></script>
+        <script src="./assets/js/jquery.sticky.js"></script>
         
         <!-- contact js -->
         <script src="./assets/js/contact.js"></script>
@@ -1163,7 +1192,7 @@
         <script src="./assets/js/mail-script.js"></script>
         <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
         
-		<!-- Jquery Plugins, main Jquery -->	
+        <!-- Jquery Plugins, main Jquery -->    
         <script src="./assets/js/plugins.js"></script>
         <script src="./assets/js/main.js"></script>
         
