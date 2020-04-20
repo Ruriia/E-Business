@@ -88,14 +88,7 @@
                                                 </ul>
                                             </li>
 
-                                            <li><a href="index.php">Home</a></li>
-                                            <li><a href="Catagori.php">Catagori</a></li>
-                                            <li class="hot"><a href="#">Latest</a>
-                                                <ul class="submenu">
-                                                    <li><a href="product_list.php"> Product list</a></li>
-                                                    <li><a href="single-product.php"> Product Details</a></li>
-                                                </ul>
-                                            </li>
+                                            
                                             <li><a href="blog.php">Blog</a>
                                                 <ul class="submenu">
                                                     <li><a href="blog.php">Blog</a></li>
