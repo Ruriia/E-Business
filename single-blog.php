@@ -68,11 +68,11 @@
                               </div>
                               <div class="header-info-right">
                                  <ul>                                          
-                                     <li><a href="login.html">My Account </a></li>
-                                     <li><a href="product_list.html">Wish List  </a></li>
-                                     <li><a href="cart.html">Shopping</a></li>
-                                     <li><a href="cart.html">Cart</a></li>
-                                     <li><a href="checkout.html">Checkout</a></li>
+                                     <li><a href="login.php">My Account </a></li>
+                                     <li><a href="product_list.php">Wish List  </a></li>
+                                     <li><a href="cart.php">Shopping</a></li>
+                                     <li><a href="cart.php">Cart</a></li>
+                                     <li><a href="checkout.php">Checkout</a></li>
                                  </ul>
                               </div>
                           </div>
@@ -85,7 +85,7 @@
                           <!-- Logo -->
                           <div class="col-xl-1 col-lg-1 col-md-1 col-sm-3">
                               <div class="logo">
-                                <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                                <a href="index.php"><img src="assets/img/logo/logo.png" alt=""></a>
                               </div>
                           </div>
                           <div class="col-xl-6 col-lg-8 col-md-7 col-sm-5">
@@ -93,32 +93,32 @@
                               <div class="main-menu f-right d-none d-lg-block">
                                   <nav>                                                
                                       <ul id="navigation">                                                                                                                                     
-                                          <li><a href="index.html">Home</a></li>
-                                          <li><a href="Catagori.html">Catagori</a></li>
+                                          <li><a href="index.php">Home</a></li>
+                                          <li><a href="Catagori.php">Catagori</a></li>
                                           <li class="hot"><a href="#">Latest</a>
                                               <ul class="submenu">
-                                                  <li><a href="product_list.html"> Product list</a></li>
-                                                  <li><a href="single-product.html"> Product Details</a></li>
+                                                  <li><a href="product_list.php"> Product list</a></li>
+                                                  <li><a href="single-product.php"> Product Details</a></li>
                                               </ul>
                                           </li>
-                                          <li><a href="blog.html">Blog</a>
+                                          <li><a href="blog.php">Blog</a>
                                               <ul class="submenu">
-                                                  <li><a href="blog.html">Blog</a></li>
-                                                  <li><a href="single-blog.html">Blog Details</a></li>
+                                                  <li><a href="blog.php">Blog</a></li>
+                                                  <li><a href="single-blog.php">Blog Details</a></li>
                                               </ul>
                                           </li>
                                           <li><a href="#">Pages</a>
                                               <ul class="submenu">
-                                                  <li><a href="login.html">Login</a></li>
-                                                  <li><a href="cart.html">Card</a></li>
-                                                  <li><a href="elements.html">Element</a></li>
-                                                  <li><a href="about.html">About</a></li>
-                                                  <li><a href="confirmation.html">Confirmation</a></li>
-                                                  <li><a href="cart.html">Shopping Cart</a></li>
-                                                  <li><a href="checkout.html">Product Checkout</a></li>
+                                                  <li><a href="login.php">Login</a></li>
+                                                  <li><a href="cart.php">Card</a></li>
+                                                  <li><a href="elements.php">Element</a></li>
+                                                  <li><a href="about.php">About</a></li>
+                                                  <li><a href="confirmation.php">Confirmation</a></li>
+                                                  <li><a href="cart.php">Shopping Cart</a></li>
+                                                  <li><a href="checkout.php">Product Checkout</a></li>
                                               </ul>
                                           </li>
-                                          <li><a href="contact.html">Contact</a></li>
+                                          <li><a href="contact.php">Contact</a></li>
                                       </ul>
                                   </nav>
                               </div>
@@ -140,7 +140,7 @@
                                   </li>
                                   <li>
                                       <div class="shopping-card">
-                                          <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+                                          <a href="cart.php"><i class="fas fa-shopping-cart"></i></a>
                                       </div>
                                   </li>
                                  <li class="d-none d-lg-block"> <a href="#" class="btn header-btn">Sign in</a></li>
@@ -469,7 +469,7 @@
                      <div class="media post_item">
                         <img src="assets/img/post/post_1.png" alt="post">
                         <div class="media-body">
-                           <a href="single-blog.html">
+                           <a href="single-blog.php">
                               <h3>From life was you fish...</h3>
                            </a>
                            <p>January 12, 2019</p>
@@ -478,7 +478,7 @@
                      <div class="media post_item">
                         <img src="assets/img/post/post_2.png" alt="post">
                         <div class="media-body">
-                           <a href="single-blog.html">
+                           <a href="single-blog.php">
                               <h3>The Amazing Hubble</h3>
                            </a>
                            <p>02 Hours ago</p>
@@ -487,7 +487,7 @@
                      <div class="media post_item">
                         <img src="assets/img/post/post_3.png" alt="post">
                         <div class="media-body">
-                           <a href="single-blog.html">
+                           <a href="single-blog.php">
                               <h3>Astronomy Or Astrology</h3>
                            </a>
                            <p>03 Hours ago</p>
@@ -496,7 +496,7 @@
                      <div class="media post_item">
                         <img src="assets/img/post/post_4.png" alt="post">
                         <div class="media-body">
-                           <a href="single-blog.html">
+                           <a href="single-blog.php">
                               <h3>Asteroids telescope</h3>
                            </a>
                            <p>01 Hours ago</p>
@@ -595,7 +595,7 @@
                        <div class="single-footer-caption mb-30">
                             <!-- logo -->
                            <div class="footer-logo">
-                               <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
+                               <a href="index.php"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
                            </div>
                            <div class="footer-tittle">
                                <div class="footer-pera">
