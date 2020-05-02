@@ -51,6 +51,7 @@ include_once 'CONFIG.php';
                    <div class="container-fluid">
                        <div class="col-xl-12">
                             <div class="row d-flex justify-content-end "> 
+<<<<<<< HEAD
                                 <div class="header-info-left d-flex"> 
                                     <div class="flag">
                                         <img src="assets/img/icon/header_icon.png" alt="">
@@ -59,6 +60,9 @@ include_once 'CONFIG.php';
                                         <p>Made in Indonesia</p>
                                     </ul>
                                 </div>
+=======
+                                
+>>>>>>> nambah beberapa file baru
                                 <div class="header-info-right">
                                    <ul>                                          
                                        <li><a href="jadivendor.php">Become A Vendor </a></li><!--belum dibuat html nya-->
@@ -91,26 +95,7 @@ include_once 'CONFIG.php';
                                                     <li><a href="Vendor.php">Vendor List</a></li>
                                                     <li><a href="becomeVendor.php">Become a Vendor</a></li>
                                                 </ul>
-                                            </li>
-
-                                            
-                                            <li><a href="blog.php">Blog</a>
-                                                <ul class="submenu">
-                                                    <li><a href="blog.php">Blog</a></li>
-                                                    <li><a href="single-blog.php">Blog Details</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="#">Pages</a>
-                                                <ul class="submenu">
-                                                    <li><a href="login.php">Login</a></li>
-                                                    <li><a href="cart.php">Card</a></li>
-                                                    <li><a href="elements.php">Element</a></li>
-                                                    <li><a href="about.php">About</a></li>
-                                                    <li><a href="confirmation.php">Confirmation</a></li>
-                                                    <li><a href="cart.php">Shopping Cart</a></li>
-                                                    <li><a href="checkout.php">Product Checkout</a></li>
-                                                </ul>
-                                            </li>
+                                            </li>   
                                             <li><a href="contact.php">Contact</a></li>
 
                                         </ul>

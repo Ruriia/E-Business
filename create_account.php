@@ -4,10 +4,10 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Login Page </title>
+    <title>Sign Up</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="manifest" href="site.webmanifest">`
+    <link rel="manifest" href="site.webmanifest">
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
 
     <!-- CSS here -->
@@ -36,7 +36,7 @@
                             <p>SOVENTS help you to find the best vendor for your own event.
                                 Make your event better with SOVENTS
                             </p>
-                            <a href="create_account.php" class="btn_3">Create an Account</a>
+
                         </div>
                     </div>
                 </div>
@@ -44,26 +44,30 @@
                     <div class="login_part_form">
                         <div class="login_part_form_iner">
                             <img src="assets/img/logo/logo-footer.png" alt=""></imgsrc>
-                            <h3>Welcome Back ! <br>
-                                Please Sign in now</h3>
+                            <h3> Hello ! Are You New ? <br>
+                                Sign Up Now !</h3> <!--SIGNUP PAGE FORM- ACTION MASIH KOSONG-->
                             <form class="row contact_form" action="#" method="post" novalidate="novalidate">
-                                <div class="col-md-12 form-group p_star">
+                                <div class="col-md-12 form-group p_star"><!--EMAIL-->
+                                    <input type="email" class="form-control" id="email" name="email" value=""
+                                        placeholder="Email">
+                                </div>
+                                <div class="col-md-12 form-group p_star"><!--NAME-->
                                     <input type="text" class="form-control" id="name" name="name" value=""
+                                        placeholder="Name">
+                                </div>
+                                <div class="col-md-12 form-group p_star"><!--USERNAME-->
+                                    <input type="text" class="form-control" id="userid" name="name" value=""
                                         placeholder="Username">
                                 </div>
-                                <div class="col-md-12 form-group p_star">
+                                <div class="col-md-12 form-group p_star"><!--PASSWORD-->
                                     <input type="password" class="form-control" id="password" name="password" value=""
                                         placeholder="Password">
                                 </div>
                                 <div class="col-md-12 form-group">
-                                    <div class="creat_account d-flex align-items-center">
-                                        <input type="checkbox" id="f-option" name="selector">
-                                        <label for="f-option">Remember me</label>
-                                    </div>
                                     <button type="submit" value="submit" class="btn_3">
-                                        log in
+                                        Create Account
                                     </button>
-                                    <a class="lost_pass" href="forget_password.php">forget password?</a>
+                                    <a class="lost_pass" href="login.php">Already Have an Account ?</a>
                                 </div>
                             </form>
                         </div>
