@@ -1,3 +1,8 @@
+<?php
+#call config.php to establish connection with localhost
+include_once 'CONFIG.php';
+?>
+
 <!doctype html>
 <html class="no-js" lang="zxx">
     <head>
@@ -51,7 +56,7 @@
                                         <img src="assets/img/icon/header_icon.png" alt="">
                                     </div>
                                     <ul class="made-in">  
-                                        <p>Made in Indonesia</p>   
+                                        <p>Made in Indonesia</p>
                                     </ul>
                                 </div>
                                 <div class="header-info-right">
