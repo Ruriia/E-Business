@@ -51,18 +51,6 @@ include_once 'CONFIG.php';
                    <div class="container-fluid">
                        <div class="col-xl-12">
                             <div class="row d-flex justify-content-end "> 
-<<<<<<< HEAD
-                                <div class="header-info-left d-flex"> 
-                                    <div class="flag">
-                                        <img src="assets/img/icon/header_icon.png" alt="">
-                                    </div>
-                                    <ul class="made-in">  
-                                        <p>Made in Indonesia</p>
-                                    </ul>
-                                </div>
-=======
-                                
->>>>>>> nambah beberapa file baru
                                 <div class="header-info-right">
                                    <ul>                                          
                                        <li><a href="jadivendor.php">Become A Vendor </a></li><!--belum dibuat html nya-->
