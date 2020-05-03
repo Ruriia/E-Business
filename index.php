@@ -51,7 +51,10 @@ include_once 'CONFIG.php';
                    <div class="container-fluid">
                        <div class="col-xl-12">
                             <div class="row d-flex justify-content-end "> 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 40bf44120ba3a5409ad70d493f74b7c3281ee9bb
                                 <div class="header-info-right">
                                    <ul>                                          
                                        <li><a href="jadivendor.php">Become A Vendor </a></li><!--belum dibuat html nya-->
