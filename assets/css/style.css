@@ -5014,14 +5014,14 @@ input:focus {
 
 /* line 2, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_footer.scss */
 .footer-area .footer-logo {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 /* line 6, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_footer.scss */
 .footer-area .footer-pera p {
   color: #868c98;
-  font-size: 16px;
-  margin-bottom: 50px;
+  font-size: 12px;
+  margin-bottom: 20px;
   line-height: 1.8;
 }
 
@@ -5123,30 +5123,11 @@ input:focus {
   }
 }
 
-/* line 90, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_footer.scss */
-.footer-copy-right p {
-  color: #888888;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 2;
-  margin-bottom: 20px;
-}
-
-/* line 96, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_footer.scss */
-.footer-copy-right p i {
-  color: #2577fd;
-}
-
-/* line 99, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_footer.scss */
-.footer-copy-right p a {
-  color: #2577fd;
-}
-
 /* line 109, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_footer.scss */
 .footer-social a i {
   color: #222222;
   margin-right: 12px;
-  font-size: 14px;
+  font-size: 30px;
   -webkit-transition: all 0.4s ease-out 0s;
   -moz-transition: all 0.4s ease-out 0s;
   -ms-transition: all 0.4s ease-out 0s;

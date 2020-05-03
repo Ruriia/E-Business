@@ -26,42 +26,31 @@
 </head>
 
 <body>
-    
+    <!-- Preloader Start -->
+    <div id="preloader-active">
+        <div class="preloader d-flex align-items-center justify-content-center">
+            <div class="preloader-inner position-relative">
+                <div class="preloader-circle"></div>
+                <div class="preloader-img pere-text">
+                    <img src="assets/img/logo/logo-sovents.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Preloader Start -->
+
     <header>
         <!-- Header Start -->
        <div class="header-area">
             <div class="main-header ">
-                <div class="header-top top-bg d-none d-lg-block">
+                <div class="header-top top-bg-white d-none d-lg-block">
                    <div class="container-fluid">
                        <div class="col-xl-12">
-                            <div class="row d-flex justify-content-between align-items-center">
-                                <div class="header-info-left d-flex">
-                                    <div class="flag">
-                                        <img src="assets/img/icon/header_icon.png" alt="">
-                                    </div>
-                                    <div class="select-this">
-                                        <form action="#">
-                                            <div class="select-itms">
-                                                <select name="select" id="select1">
-                                                    <option value="">USA</option>
-                                                    <option value="">SPN</option>
-                                                    <option value="">CDA</option>
-                                                    <option value="">USD</option>
-                                                </select>
-                                            </div>
-                                        </form>
-                                    </div>
-                                    <ul class="contact-now">     
-                                        <li>+777 2345 7886</li>
-                                    </ul>
-                                </div>
+                            <div class="row d-flex justify-content-end "> 
                                 <div class="header-info-right">
                                    <ul>                                          
-                                       <li><a href="login.php">My Account </a></li>
-                                       <li><a href="product_list.php">Wish List  </a></li>
-                                       <li><a href="cart.php">Shopping</a></li>
-                                       <li><a href="cart.php">Cart</a></li>
-                                       <li><a href="checkout.php">Checkout</a></li>
+                                       <li><a href="jadivendor.php">Become A Vendor </a></li><!--belum dibuat html nya-->
+                                       <li><a href="product_list.php">My Account  </a></li>
                                    </ul>
                                 </div>
                             </div>
@@ -74,7 +63,7 @@
                             <!-- Logo -->
                             <div class="col-xl-1 col-lg-1 col-md-1 col-sm-3">
                                 <div class="logo">
-                                  <a href="index.php"><img src="assets/img/logo/logo.png" alt=""></a>
+                                  <a href="index.php"><img src="assets/img/logo/logo-header.png" alt=""></a>
                                 </div>
                             </div>
                             <div class="col-xl-6 col-lg-8 col-md-7 col-sm-5">
@@ -82,32 +71,17 @@
                                 <div class="main-menu f-right d-none d-lg-block">
                                     <nav>                                                
                                         <ul id="navigation">                                                                                                                                     
+
                                             <li><a href="index.php">Home</a></li>
-                                            <li><a href="Catagori.php">Catagori</a></li>
-                                            <li class="hot"><a href="#">Latest</a>
+                                            <li><a href="Event.php">Event</a></li>
+                                            <li><a href="#">Vendor</a>
                                                 <ul class="submenu">
-                                                    <li><a href="product_list.php"> Product list</a></li>
-                                                    <li><a href="single-product.php"> Product Details</a></li>
+                                                    <li><a href="Vendor.php">Vendor List</a></li>
+                                                    <li><a href="becomeVendor.php">Become a Vendor</a></li>
                                                 </ul>
-                                            </li>
-                                            <li><a href="blog.php">Blog</a>
-                                                <ul class="submenu">
-                                                    <li><a href="blog.php">Blog</a></li>
-                                                    <li><a href="single-blog.php">Blog Details</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="#">Pages</a>
-                                                <ul class="submenu">
-                                                    <li><a href="login.php">Login</a></li>
-                                                    <li><a href="cart.php">Card</a></li>
-                                                    <li><a href="elements.php">Element</a></li>
-                                                    <li><a href="about.php">About</a></li>
-                                                    <li><a href="confirmation.php">Confirmation</a></li>
-                                                    <li><a href="cart.php">Shopping Cart</a></li>
-                                                    <li><a href="checkout.php">Product Checkout</a></li>
-                                                </ul>
-                                            </li>
+                                            </li>   
                                             <li><a href="contact.php">Contact</a></li>
+
                                         </ul>
                                     </nav>
                                 </div>
@@ -132,7 +106,7 @@
                                             <a href="cart.php"><i class="fas fa-shopping-cart"></i></a>
                                         </div>
                                     </li>
-                                   <li class="d-none d-lg-block"> <a href="#" class="btn header-btn">Sign in</a></li>
+                                   <li class="d-none d-lg-block"> <a href="login.php" class="btn header-btn">Sign in</a></li>
                                 </ul>
                             </div>
                             <!-- Mobile Menu -->
@@ -150,12 +124,12 @@
   <!-- slider Area Start-->
   <div class="slider-area ">
     <!-- Mobile Menu -->
-    <div class="single-slider slider-height2 d-flex align-items-center" data-background="assets/img/hero/category.jpg">
+    <div class="single-slider slider-height2 d-flex align-items-center" data-background="assets/img/hero/banner-1.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
                     <div class="hero-cap text-center">
-                        <h2>About</h2>
+                        <h2>Tentang Kami</h2>
                     </div>
                 </div>
             </div>
@@ -170,11 +144,15 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="about_us_content">
-                        <h5>Our Mission</h5>
-                        <h3>Donec imperdiet congue orci consequat mattis. Donec rutrum porttitor sollicitudin. Pellentesque id dolor tempor sapien feugiat ultrices nec sed neque.</h3>
+                        <h5>Misi Kami</h5>
+                        <h3>Sovents dibangun demi mendukung sektor sektor usaha menegah keatas maupun kebawah
+                            dalam bidang event dan juga sovents bertujuan mempermudah orang-orang yang 
+                            menyelenggarakan event secara personal tanpa melibatkan <i>organizer/EO</i>. Sovents juga melibatkan 
+                            <i>vendor-vendor</i> seperti <i>table decor , cake & pastries , decoration </i>, dll. Sovents dibangun sebagai 
+                            <i>marketplace</i> para penyedia jasa layanan event skala kecil.
+                        </h3>
                         <div class="about_us_video">
-                            <img src="assets/img/about_us_video.png" alt="#" class="img-fluid">
-                            <a class="about_video_icon popup-youtube" href="https://www.youtube.com/watch?v=DWHB6nTyKDI"></a>
+                            <img src="assets/img/sovents_about.jpg" alt="#" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -189,40 +167,43 @@
             <div class="row justify-content-between">
                 <div class="col-lg-6">
                     <div class="feature_part_tittle">
-                        <h3>Credibly innovate granular
-                        internal or organic sources
-                        whereas standards.</h3>
+                        <h3>Partner terpecaya dalam
+                        memberikan pelayanan dan pemenuhan
+                        kebutuhan event kamu dengan baik</h3>
                     </div>
                 </div>
                 <div class="col-lg-5">
                     <div class="feature_part_content">
-                        <p>Seamlessly empower fully researched growth strategies and interoperable internal or “organic” sources. Credibly innovate granular internal or “organic” sources whereas high standards in web-readiness.</p>
+                        <p>Sovents telah dipercaya oleh beberapa partner vendor event untuk 
+                            mempertemukan konsumen dan sebagai media promosi yang baik. Sovents mendapatkan
+                            banyak feedback dan kami akan terus berkembang seiring dengan masukan kalian.
+                        </p>
                     </div>
                 </div>
             </div>
             <div class="row justify-content-center">
                 <div class="col-lg-3 col-sm-6">
                     <div class="single_feature_part">
-                        <img src="assets/img/icon/feature_icon_1.svg" alt="#">
-                        <h4>Credit Card Support</h4>
+                        <img src="assets/img/icon/payment.svg" alt="#">
+                        <h4>Permbayaran Virtual</h4>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="single_feature_part">
-                        <img src="assets/img/icon/feature_icon_2.svg" alt="#">
-                        <h4>Online Order</h4>
+                        <img src="assets/img/icon/online_book.svg" alt="#">
+                        <h4>Online Booking</h4>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="single_feature_part">
-                        <img src="assets/img/icon/feature_icon_3.svg" alt="#">
-                        <h4>Free Delivery</h4>
+                        <img src="assets/img/icon/fast.svg" alt="#">
+                        <h4>Pemrosesan Cepat</h4>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="single_feature_part">
-                        <img src="assets/img/icon/feature_icon_4.svg" alt="#">
-                        <h4>Product with Gift</h4>
+                        <img src="assets/img/icon/chat_vendor.svg" alt="#">
+                        <h4>Connect With Vendor</h4>
                     </div>
                 </div>
             </div>
@@ -271,7 +252,7 @@
                 <div class="col-lg-8">
                     <div class="subscribe_part_content">
                         <h2>Get promotions & updates!</h2>
-                        <p>Seamlessly empower fully researched growth strategies and interoperable internal or “organic” sources credibly innovate granular internal .</p>
+                        <p>Dapatkan selalu info-info promo menarik tercepat hanya dengan memasukan email kamu kesini !</p>
                         <div class="subscribe_form">
                             <input type="email" placeholder="Enter your mail">
                             <a href="#" class="btn_1">Subscribe</a>
@@ -282,93 +263,49 @@
         </div>
     </section>
     <!-- subscribe part end -->
-
     <footer>
-        <!-- Footer Start-->
-        <div class="footer-area footer-padding">
-            <div class="container">
-                <div class="row d-flex justify-content-between">
-                    <div class="col-xl-3 col-lg-3 col-md-5 col-sm-6">
-                       <div class="single-footer-caption mb-50">
-                         <div class="single-footer-caption mb-30">
-                              <!-- logo -->
-                             <div class="footer-logo">
-                                 <a href="index.php"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
-                             </div>
-                             <div class="footer-tittle">
-                                 <div class="footer-pera">
-                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore.</p>
-                                </div>
-                             </div>
+
+<!-- Footer Start-->
+<div class="footer-area footer-padding">
+    <div class="container">
+        <div class="row d-flex justify-content-between">
+            <div class="col-xl-3 col-lg-3 col-md-5 col-sm-6">
+               <div class="single-footer-caption mb-50">
+                 <div class="single-footer-caption mb-30">
+                      <!-- logo -->
+                     <div class="footer-logo">
+                         <a href="index.php"><img src="assets/img/logo/logo-footer.png" alt=""></a>
                          </div>
-                       </div>
-                    </div>
-                    <div class="col-xl-2 col-lg-3 col-md-3 col-sm-5">
-                        <div class="single-footer-caption mb-50">
-                            <div class="footer-tittle">
-                                <h4>Quick Links</h4>
-                                <ul>
-                                    <li><a href="#">About</a></li>
-                                    <li><a href="#"> Offers & Discounts</a></li>
-                                    <li><a href="#"> Get Coupon</a></li>
-                                    <li><a href="#">  Contact Us</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-7">
-                        <div class="single-footer-caption mb-50">
-                            <div class="footer-tittle">
-                                <h4>New Products</h4>
-                                <ul>
-                                    <li><a href="#">Woman Cloth</a></li>
-                                    <li><a href="#">Fashion Accessories</a></li>
-                                    <li><a href="#"> Man Accessories</a></li>
-                                    <li><a href="#"> Rubber made Toys</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-md-5 col-sm-7">
-                        <div class="single-footer-caption mb-50">
-                            <div class="footer-tittle">
-                                <h4>Support</h4>
-                                <ul>
-                                 <li><a href="#">Frequently Asked Questions</a></li>
-                                 <li><a href="#">Terms & Conditions</a></li>
-                                 <li><a href="#">Privacy Policy</a></li>
-                                 <li><a href="#">Privacy Policy</a></li>
-                                 <li><a href="#">Report a Payment Issue</a></li>
-                             </ul>
-                            </div>
-                        </div>
+                 </div>
+               </div>
+            </div>
+            <div class="col-xl-2 col-lg-3">
+                <div class="single-footer-caption mb-50">
+                    <div class="footer-tittle">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="about.php">About</a></li>
+                            <li><a href="contact.php">  Contact Us</a></li>
+                        </ul>
                     </div>
                 </div>
-                <!-- Footer bottom -->
-                <div class="row">
-                 <div class="col-xl-7 col-lg-7 col-md-7">
-                     <div class="footer-copy-right">
-                         <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="ti-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>                    </div>
-                 </div>
-                  <div class="col-xl-5 col-lg-5 col-md-5">
-                     <div class="footer-copy-right f-right">
-                         <!-- social -->
-                         <div class="footer-social">
-                             <a href="#"><i class="fab fa-twitter"></i></a>
-                             <a href="#"><i class="fab fa-facebook-f"></i></a>
-                             <a href="#"><i class="fab fa-behance"></i></a>
-                             <a href="#"><i class="fas fa-globe"></i></a>
-                         </div>
-                     </div>
-                 </div>
-             </div>
+            </div>
+            <div class="col-lg col-lg">
+                <div class="single-footer-caption mb-50">
+                    <div class="footer-tittle">
+                        <h4>Support</h4>
+                        <ul>
+                            <li><a href="#">Frequently Asked Questions</a></li>
+                         <li><a href="#">Terms & Conditions</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
-    
-        <!-- Footer End-->
-    </footer>
+</div>
+<!-- Footer End-->
+
+</footer>
 
 <!-- JS here -->
 
