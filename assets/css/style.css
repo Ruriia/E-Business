@@ -3282,7 +3282,7 @@ input:focus {
   position: relative;
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 3640px) {
+@media only screen and (min-width: 800px) and (max-width: 1240px) {
   /* line 1138, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_common.scss */
   .container {
     max-width: 1170px;
