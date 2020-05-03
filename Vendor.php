@@ -156,12 +156,17 @@
 
                     <!-- Nama Vendor -->
                     <span class="product-title">
-                        Nama Vendor Disini 
+                        The Lejen Vendor
                     </span>
 
                     <!-- Jenis Vendor -->
                     <span class="product-caption">
-                        PHOTOGRAPHY/BIRTHDAYPARTY/ETC
+                        PHOTOGRAPHY
+                    </span>
+
+                    <!-- Lokasi Vendor -->
+                    <span class="product-caption">
+                        JAKARTA
                     </span>
 
                     <!-- Rating Bintang Vendor -->
@@ -184,7 +189,7 @@
                     <div class="card-button block">
                         <a href="#"> View Pricelist</a>
                     </div>
-                    
+
                 </div> <!-- Product Desc End -->
             </div> <!-- Card : Body End -->
         </div> <!-- Container End -->
