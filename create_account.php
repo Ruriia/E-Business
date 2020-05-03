@@ -46,7 +46,7 @@
                             <img src="assets/img/logo/logo-footer.png" alt=""></imgsrc>
                             <h3> Hello ! Are You New ? <br>
                                 Sign Up Now !</h3> <!--SIGNUP PAGE FORM- ACTION MASIH KOSONG-->
-                            <form class="row contact_form" action="#" method="post" novalidate="novalidate">
+                            <form class="row contact_form" action="register.php" method="post" novalidate="novalidate">
                                 <div class="col-md-12 form-group p_star"><!--EMAIL-->
                                     <input type="email" class="form-control" id="email" name="email" value=""
                                         placeholder="Email">
@@ -56,13 +56,22 @@
                                         placeholder="Name">
                                 </div>
                                 <div class="col-md-12 form-group p_star"><!--USERNAME-->
-                                    <input type="text" class="form-control" id="userid" name="name" value=""
+                                    <input type="text" class="form-control" id="userid" name="username" value=""
                                         placeholder="Username">
                                 </div>
                                 <div class="col-md-12 form-group p_star"><!--PASSWORD-->
                                     <input type="password" class="form-control" id="password" name="password" value=""
                                         placeholder="Password">
                                 </div>
+                                <br>
+                                <div class="col-md-12 form-group p_star"><!--USER TYPE-->
+                                    <p>Sign up as:</p>
+                                    <input type="radio" id="customer" name="utype" value="1">
+                                    <label for="male">Customer</label><br>
+                                    <input type="radio" id="vendor" name="utype" value="2">
+                                    <label for="male">Vendor</label><br>
+                                </div>
+                                
                                 <div class="col-md-12 form-group">
                                     <button type="submit" value="submit" class="btn_3">
                                         Create Account
