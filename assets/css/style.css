@@ -3876,7 +3876,7 @@ input:focus {
 
 /* line 2, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_h1-hero.scss */
 .slider-height {
-  min-height: 800px;
+  min-height: 600px;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3991,8 +3991,8 @@ input:focus {
 @media (max-width: 767px) {
   /* line 63, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_h1-hero.scss */
   .slider-area .hero__caption {
-    padding-top: 38px;
-    padding-left: 22px;
+    padding-top: 40px;
+    padding-left: 90px;
   }
 }
 
