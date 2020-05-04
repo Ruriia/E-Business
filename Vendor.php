@@ -19,63 +19,183 @@
         </div>
     </div>
     <!-- slider Area End-->
-    
-    <!-- Card for vendor Start -->
-    <!-- Container Start -->
-    <div class="container-card">
-        <!-- Card Start -->
-        <div class="card"> 
-            <!-- Card : Head Start -->
-            <div class="card-head">
-                <img src="assets/img/weddingsample.jpeg" class="card-picture">
-            </div>
-            <!-- Card : Head End -->
 
-            <!-- Card : Body Start -->
-            <div class="card-body">
-                <!-- Product Desc Start -->
-                <div class="product-desc">
-
-                    <!-- Nama Vendor -->
-                    <span class="product-title">
-                        The Lejen Vendor
-                    </span>
-
-                    <!-- Jenis Vendor -->
-                    <span class="product-caption">
-                        PHOTOGRAPHY
-                    </span>
-
-                    <!-- Lokasi Vendor -->
-                    <span class="product-caption">
-                        JAKARTA
-                    </span>
-
-                    <!-- Rating Bintang Vendor -->
-                    <span class="product-rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star grey"></i>
-                    <!-- Rating Angka Vendor -->
-                    <span class="badge">
-                        4.7 / 5
-                    </span>
-                    <!-- Review yang sudah diterima si Vendor -->
-                    <span class="badge">
-                        25 Review
-                    </span>
-
-                    <!-- Tombol untuk akses info vendor -->
-                    <div class="card-button block">
-                        <a href="#"> View Pricelist</a>
+    <div class="wrapper row"> 
+        <div class="col col-4"> 
+            <!-- Card for vendor Start -->
+            <!-- Container Start -->
+            <div class="container-card">
+                <!-- Card Start -->
+                <div class="card"> 
+                    <!-- Card : Head Start -->
+                    <div class="card-head">
+                        <img src="assets/img/weddingsample.jpeg" class="card-picture">
                     </div>
+                    <!-- Card : Head End -->
 
-                </div> <!-- Product Desc End -->
-            </div> <!-- Card : Body End -->
-        </div> <!-- Container End -->
-    </div> <!-- Card for vendor End -->
+                    <!-- Card : Body Start -->
+                    <div class="card-body">
+                        <!-- Product Desc Start -->
+                        <div class="product-desc">
+
+                            <!-- Nama Vendor -->
+                            <span class="product-title">
+                                The Lejen Vendor
+                            </span>
+
+                            <!-- Jenis Vendor -->
+                            <span class="product-caption">
+                                PHOTOGRAPHY
+                            </span>
+
+                            <!-- Lokasi Vendor -->
+                            <span class="product-caption">
+                                JAKARTA
+                            </span>
+
+                            <!-- Rating Bintang Vendor -->
+                            <span class="product-rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star grey"></i>
+                            <!-- Rating Angka Vendor -->
+                            <span class="badge">
+                                4.7 / 5
+                            </span>
+                            <!-- Review yang sudah diterima si Vendor -->
+                            <span class="badge">
+                                25 Review
+                            </span>
+
+                            <!-- Tombol untuk akses info vendor -->
+                            <div class="card-button block">
+                                <a href="#"> View Pricelist</a>
+                            </div>
+
+                        </div> <!-- Product Desc End -->
+                    </div> <!-- Card : Body End -->
+                </div> <!-- Container End -->
+            </div> <!-- Card for vendor End -->
+        </div>
+        <div class="col col-4"> 
+            <!-- Card for vendor Start -->
+            <!-- Container Start -->
+            <div class="container-card">
+                <!-- Card Start -->
+                <div class="card"> 
+                    <!-- Card : Head Start -->
+                    <div class="card-head">
+                        <img src="assets/img/weddingsample.jpeg" class="card-picture">
+                    </div>
+                    <!-- Card : Head End -->
+
+                    <!-- Card : Body Start -->
+                    <div class="card-body">
+                        <!-- Product Desc Start -->
+                        <div class="product-desc">
+
+                            <!-- Nama Vendor -->
+                            <span class="product-title">
+                                The Lejen Vendor
+                            </span>
+
+                            <!-- Jenis Vendor -->
+                            <span class="product-caption">
+                                PHOTOGRAPHY
+                            </span>
+
+                            <!-- Lokasi Vendor -->
+                            <span class="product-caption">
+                                JAKARTA
+                            </span>
+
+                            <!-- Rating Bintang Vendor -->
+                            <span class="product-rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star grey"></i>
+                            <!-- Rating Angka Vendor -->
+                            <span class="badge">
+                                4.7 / 5
+                            </span>
+                            <!-- Review yang sudah diterima si Vendor -->
+                            <span class="badge">
+                                25 Review
+                            </span>
+
+                            <!-- Tombol untuk akses info vendor -->
+                            <div class="card-button block">
+                                <a href="#"> View Pricelist</a>
+                            </div>
+
+                        </div> <!-- Product Desc End -->
+                    </div> <!-- Card : Body End -->
+                </div> <!-- Container End -->
+            </div> <!-- Card for vendor End -->
+        </div>
+        <div class="col col-4"> 
+            <!-- Card for vendor Start -->
+            <!-- Container Start -->
+            <div class="container-card">
+                <!-- Card Start -->
+                <div class="card"> 
+                    <!-- Card : Head Start -->
+                    <div class="card-head">
+                        <img src="assets/img/weddingsample.jpeg" class="card-picture">
+                    </div>
+                    <!-- Card : Head End -->
+
+                    <!-- Card : Body Start -->
+                    <div class="card-body">
+                        <!-- Product Desc Start -->
+                        <div class="product-desc">
+
+                            <!-- Nama Vendor -->
+                            <span class="product-title">
+                                The Lejen Vendor
+                            </span>
+
+                            <!-- Jenis Vendor -->
+                            <span class="product-caption">
+                                PHOTOGRAPHY
+                            </span>
+
+                            <!-- Lokasi Vendor -->
+                            <span class="product-caption">
+                                JAKARTA
+                            </span>
+
+                            <!-- Rating Bintang Vendor -->
+                            <span class="product-rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star grey"></i>
+                            <!-- Rating Angka Vendor -->
+                            <span class="badge">
+                                4.7 / 5
+                            </span>
+                            <!-- Review yang sudah diterima si Vendor -->
+                            <span class="badge">
+                                25 Review
+                            </span>
+
+                            <!-- Tombol untuk akses info vendor -->
+                            <div class="card-button block">
+                                <a href="#"> View Pricelist</a>
+                            </div>
+
+                        </div> <!-- Product Desc End -->
+                    </div> <!-- Card : Body End -->
+                </div> <!-- Container End -->
+            </div> <!-- Card for vendor End -->
+        </div>
+    </div>
 
 
     <?php include('footer.php'); ?>
