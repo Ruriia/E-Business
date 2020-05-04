@@ -1,6 +1,10 @@
 <?php
 #call config.php to establish connection with localhost
-include_once 'CONFIG.php';
+require 'CONFIG.php';
+
+session_start();
+
+
 ?>
 
 <!doctype html>

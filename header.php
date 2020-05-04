@@ -1,3 +1,7 @@
+<?php
+  $islogin = ($_SESSION['islogin'] == 1) ? 1 : 0 ;
+?>
+
 <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -46,10 +50,26 @@
                           <div class="col-xl-12">
                                <div class="row d-flex justify-content-end "> 
                                    <div class="header-info-right">
+                                    <?php
+                                      if($islogin == 0):
+                                    ?>
+
                                       <ul>                                          
                                           <li><a href="jadivendor.php">Become A Vendor </a></li><!--belum dibuat html nya-->
                                           <li><a href="product_list.php">My Account  </a></li>
                                       </ul>
+
+                                      <?php
+                                      else:
+                                      ?>
+
+                                      <ul>
+                                        <li>Hi, <a href="profile.php"><?php echo $_SESSION['name']; ?></a>!</li>
+                                      </ul>
+
+                                      <?php
+                                      endif;
+                                      ?>
                                    </div>
                                </div>
                           </div>
@@ -96,10 +116,19 @@
                                         </li>
                                        <li>
                                            <div class="shopping-card">
+                                              <?php
+                                                
+                                              ?>
                                                <a href="cart.php"><i class="fas fa-shopping-cart"></i></a>
                                            </div>
                                        </li>
+                                       <?php
+                                        if($islogin == 0):
+                                       ?>
                                       <li class="d-none d-lg-block"> <a href="login.php" class="btn header-btn">Sign in</a></li>
+                                      <?php
+                                        endif;
+                                      ?>
                                    </ul>
                                </div>
                                <!-- Mobile Menu -->
