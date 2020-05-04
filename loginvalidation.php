@@ -14,6 +14,7 @@
 
 	if($fetchdata = $result->fetch()){
 		if(password_verify($upassword, $fetchdata['user_password'])){
+			$_SESSION['islogin'] = 1;
 			$_SESSION['id'] = $fetchdata['user_id'];
 			$_SESSION['name'] = $fetchdata['name'];
 			$_SESSION['region'] = $fetchdata['region'];
