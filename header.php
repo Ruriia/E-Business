@@ -1,4 +1,5 @@
 <?php
+  session_start();
   $islogin = ($_SESSION['islogin'] == 1) ? 1 : 0 ;
 ?>
 
