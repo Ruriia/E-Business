@@ -1,4 +1,25 @@
 <!doctype html><!--ISINYA LIST LIST VENDOR -->
+<?php
+
+    session_start();
+    require 'CONFIG.php';
+    $key = getConnection();
+
+    $sql = "SELECT * FROM tabel_user WHERE user_id = ?";
+    $result = $key->prepare($sql);
+    $result->execute([$_GET['product']]);
+    $fetchdata = $result->fetch();
+
+    $reviewsql = "SELECT SUM(rating) as rating, COUNT(rating) as total FROM review_vendor WHERE vendor_id = ?";
+    $reviewresult = $key->prepare($reviewsql);
+    $reviewresult->execute([$fetchdata['user_id']]);
+    $reviewfetch = $reviewresult->fetch();
+    $rating = 0;
+    if($reviewfetch['total'] != 0){
+        $rating = $reviewfetch['rating'] / $reviewfetch['total'];
+    }
+?>
+
 <html class="no-js" lang="zxx">
 
 <head>
@@ -126,26 +147,81 @@
         <div class="wrapper row">
             <div class="col col-4">
                 <div class="card-border">
-                    <img src="assets/img/weddingsample.jpeg" class="info-picture">
-                    <div class="product-title"> The Lejen Vendor </div>
-                    <div class="product-caption"> Photography </div>
-                    <div class="product-caption"> Jakarta </div>
+                    <img src="<?= $fetchdata['user_img']?>" class="info-picture">
+                    <div class="product-title"><?= $fetchdata['name']?> </div>
+                    <div class="product-caption"><?= $fetchdata['vendor_type']?></div>
+                    <div class="product-caption"><?= $fetchdata['region']?></div>
 
                     <div class="subinfo-border"> 
                         <!-- Rating Bintang Vendor -->
                         <span class="product-rating">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star grey"></i>
+                            <?php 
+                                    if($rating < 1):
+                                ?>
+                                <i class="fa fa-star grey"></i>
+                                <i class="fa fa-star grey"></i>
+                                <i class="fa fa-star grey"></i>
+                                <i class="fa fa-star grey"></i>
+                                <i class="fa fa-star grey"></i>
+
+                                <?php
+                                    elseif($rating >= 1 && $rating < 2):
+                                ?>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star grey"></i>
+                                <i class="fa fa-star grey"></i>
+                                <i class="fa fa-star grey"></i>
+                                <i class="fa fa-star grey"></i>
+
+                                <?php
+                                    elseif($rating >= 2 && $rating < 3):
+                                ?>
+
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star grey"></i>
+                                <i class="fa fa-star grey"></i>
+                                <i class="fa fa-star grey"></i>
+
+                                <?php 
+                                    elseif($rating >= 3 && $rating < 4):
+                                ?>
+
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star grey"></i>
+                                <i class="fa fa-star grey"></i>
+
+                                <?php
+                                    elseif($rating >= 4 && $rating < 5):
+                                ?>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star grey"></i>
+
+                                <?php
+                                    else:
+                                ?>
+
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+
+                                <?php
+                                    endif;
+                                ?>
                         <!-- Rating Angka Vendor -->
                         <span class="badge-new">
-                            4.7 / 5
+                            <?= $rating?> / 5
                         </span>
                         <!-- Review yang sudah diterima si Vendor -->
                         <span class="badge-new">
-                            25 Review
+                            <?= $reviewfetch['total']?> Review
                         </span>
                     </div>
 
@@ -153,25 +229,65 @@
                         <div class="social-info"> 
                             <img src="assets/img/icon/email.svg" class="icon-size">
                             <span class="sosial-content"> 
-                                thelejenvendor@gmail.com
+                                <?php
+                                    if(is_null($fetchdata['email'])):
+                                ?>
+                                -
+                                <?php 
+                                    else:
+                                ?>
+                                <?= $fetchdata['email']?>
+                                <?php
+                                    endif;
+                                ?>
                             </span>
                         </div>
                         <div class="social-info"> 
                             <img src="assets/img/icon/whatsapp.svg" class="icon-size">
                             <span class="sosial-content"> 
-                                0821-1234-5789
+                                <?php
+                                    if(is_null($fetchdata['contact_wa'])):
+                                ?>
+                                -
+                                <?php 
+                                    else:
+                                ?>
+                                <?= $fetchdata['contact_wa']?>
+                                <?php
+                                    endif;
+                                ?>
                             </span>
                         </div>
                         <div class="social-info"> 
                             <img src="assets/img/icon/instagram.svg" class="icon-size">
                             <span class="sosial-content"> 
-                                lejenvendor.id
+                                <?php
+                                    if(is_null($fetchdata['contact_ig'])):
+                                ?>
+                                -
+                                <?php 
+                                    else:
+                                ?>
+                                <?= $fetchdata['contact_ig']?>
+                                <?php
+                                    endif;
+                                ?>
                             </span>
                         </div>
                         <div class="social-info"> 
                             <img src="assets/img/icon/web.svg" class="icon-size">
                             <span class="sosial-content"> 
-                                lejenvendor.com
+                                <?php
+                                    if(is_null($fetchdata['contact_web'])):
+                                ?>
+                                -
+                                <?php 
+                                    else:
+                                ?>
+                                <?= $fetchdata['contact_web']?>
+                                <?php
+                                    endif;
+                                ?>
                             </span>
                         </div>
                     </div>
@@ -182,7 +298,17 @@
                     <div class="description-title">About us</div>
                     <div class="desc-content">
                         <!-- 50 Words -->
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rutrum magna vel nunc rutrum lacinia at a turpis. Vestibulum at arcu nec erat vehicula sodales. Maecenas lobortis, libero in varius dignissim, massa ipsum blandit mauris, sed aliquet eros ante vel orci. Quisque justo ipsum, finibus quis sollicitudin iaculis, auctor a. 
+                        <?php
+                            if(is_null($fetchdata['vendor_detail'])):
+                        ?>
+                        -
+                        <?php 
+                            else:
+                        ?>
+                        <?= $fetchdata['vendor_detail']?>
+                        <?php
+                            endif;
+                        ?>
                     </div>
                 </div>
 
@@ -190,34 +316,58 @@
                     <div class="tab-title">PRICE LIST</div>
                     
                     <div class="vendor-package">
+                        <?php 
+                            $productsql = "SELECT * FROM partner_product WHERE partner_id = ?";
+                            $resultproduct = $key->prepare($productsql);
+                            $resultproduct->execute([$_GET['product']]);
+                            while($fetchproduct = $resultproduct->fetch()):
+
+                        ?>
                         <div class="wrapper-package row"> 
+                            
                             <div class="col col-3">
                                 <div class="gallery-align">
-                                    <img src="assets/img/vendor_package/package1.jpg" class="package-pic">
+                                    <img src="<?= $fetchproduct['image_path']?>" class="package-pic">
                                 </div>
                             </div>
                             <div class="col col-6">
-                                <div class="description-title">About us</div>
+                                <div class="description-title"><?= $fetchproduct['product_title']?></div>
                                 <div class="desc-content">
                                     <!-- 50 Words -->
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rutrum magna vel nunc rutrum lacinia at a turpis. Vestibulum at arcu nec erat vehicula sodales. Maecenas lobortis, libero in varius dignissim, massa ipsum blandit mauris, sed aliquet eros ante vel orci. Quisque justo ipsum, finibus quis sollicitudin iaculis, auctor a. 
+                                    <?php
+                                        if(is_null($fetchproduct['product_desc'])):
+                                    ?>
+                                    -
+                                    <?php 
+                                        else:
+                                    ?>
+                                    <?= $fetchproduct['product_desc']?>
+
+                                    <?php
+                                        endif;
+                                    ?>
                                 </div>
                             </div>
                             <div class="col col-3">
                                 <div class="price">
                                     <div class="price-currency">Rp</div>
-                                    <div class="price-title">750.000</div>
+                                    <div class="price-title"><?= $fetchproduct['product_price']?></div>
                                     <div class="package-button">
                                         <a href="#">ADD TO CART</a>
                                     </div>
                                 </div>
                             </div>
+                            
                         </div>
+                        <?php 
+                            endwhile;
+                        ?>
                     </div>
+                    
                 </div>
 
                 <div class="vendor-info-tab"> 
-                    <div class="tab-title">GALLERY</div>
+                    <div class="tab-title">Review</div>
                     
                     <div class="wrapper-gallery row"> 
                         <div class="col col-4">

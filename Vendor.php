@@ -27,20 +27,15 @@
 
     <div class="wrapper-list row"> 
         <?php
-            $sql = "SELECT * FROM partner_product";
+            $sql = "SELECT * FROM tabel_user where user_type = 2";
             $result = $key->prepare($sql);
             $result->execute();
             $i = 1;
             while($fetchdata = $result->fetch()):
-                $imagesql = "SELECT image_path FROM product_image WHERE image_id = ?";
-                $imageresult = $key->prepare($imagesql);
-                $imageresult->execute([$fetchdata['image_id']]);
-                $imagepath = $imageresult->fetch();
-                $path = $imagepath['image_path'];
 
-                $reviewsql = "SELECT SUM(rating) as rating, COUNT(rating) as total FROM review_product WHERE product_id = ?";
+                $reviewsql = "SELECT SUM(rating) as rating, COUNT(rating) as total FROM review_vendor WHERE vendor_id = ?";
                 $reviewresult = $key->prepare($reviewsql);
-                $reviewresult->execute([$fetchdata['product_id']]);
+                $reviewresult->execute([$fetchdata['user_id']]);
                 $reviewfetch = $reviewresult->fetch();
                 $rating = 0;
                 if($reviewfetch['total'] != 0){
@@ -62,7 +57,7 @@
                 <div class="card"> 
                     <!-- Card : Head Start -->
                     <div class="card-head">
-                        <img src="<?= $path?>" class="card-picture">
+                        <img src="<?= $fetchdata['user_img']?>" class="card-picture">
                     </div>
                     <!-- Card : Head End -->
 
@@ -72,17 +67,17 @@
                         <div class="product-desc">
                             <!-- Nama Vendor -->
                             <span class="product-title">
-                                <?= $fetchdata['product_title'] ?>
+                                <?= $fetchdata['name'] ?>
                             </span>
 
                             <!-- Jenis Vendor -->
                             <span class="product-caption">
-                                <?= $fetchdata['product_type'] ?>
+                                <?= $fetchdata['vendor_type'] ?>
                             </span>
 
                             <!-- Lokasi Vendor -->
                             <span class="product-caption">
-                                JAKARTA
+                                <?= $fetchdata['region'] ?>
                             </span>
 
                             <!-- Rating Bintang Vendor -->
@@ -158,7 +153,7 @@
 
                             <!-- Tombol untuk akses info vendor -->
                             <div class="card-button block">
-                                <a href="vendor_detail.php"> View Pricelist</a>
+                                <a href="Vendor_detail.php?product=<?= $fetchdata['user_id']; ?>"> View Pricelist</a>
                             </div>
 
                         </div> <!-- Product Desc End -->
