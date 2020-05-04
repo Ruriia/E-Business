@@ -150,15 +150,10 @@
                             <span class="badge">
                                 <?= $reviewfetch['total']?> Review
                             </span>
-
-                            <!-- Tombol untuk akses info vendor -->
-                            <div class="card-button block">
-                                <a href="Vendor_detail.php?product=<?= $fetchdata['user_id']; ?>"> View Pricelist</a>
-                            </div>
-
                         
                         </div> <!-- Product Desc End -->
                     </div> <!-- Card : Body End -->
+                    <!-- Tombol untuk akses info vendor -->
                     <a href="vendor_detail.php" class="card-button block"> View Pricelist</a>
                 </div> <!-- Container End -->
             </div> <!-- Card for vendor End -->
