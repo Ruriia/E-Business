@@ -54,6 +54,38 @@
     width: 1200px;
 }
 
+.wrapper-gallery {
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    box-sizing: border-box;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.wrapper-package {
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    box-sizing: border-box;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 600px;
+}
+
+.badge-new {
+    position: relative;
+    font-size: 11px;
+    font-weight: 400;
+    color: #fff;
+    background: #11e95b;
+    padding: 2px 5px;
+    border-radius: 4px;
+    margin: 3px 3px 3px 8px;
+  }
+
 .col {
     float: left;
     box-sizing: border-box;
@@ -69,6 +101,14 @@
 
 .row>.col-4 {
     width: 33%;
+}
+
+.row>.col-3 {
+    width: 25%;
+}
+
+.row>.col-6 {
+    width: 50%;
 }
 
 .sosial-content {
@@ -122,8 +162,7 @@
     border-width: thin;
     border-color:lightgray;
     border-radius: 5px;
-    height: 300px;
-    margin-bottom: 8px;
+    margin-bottom: 25px;
 }
 
 .tab-title {
@@ -147,7 +186,58 @@
     border-style: solid;
     border-width: thin;
     border-color:lightgray;
-    height: 120px;
     margin: 15px 12px 12px 12px;
     border-radius: 5px;
+}
+
+.package-pic {
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    margin: 15px;
+}
+
+.gallery-align {
+    text-align: center;
+    padding: 25px 0px;
+}
+
+.gallery-pic {
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+.price-currency {
+    text-align: center;
+    font-weight: bold;
+}
+
+.price-title {
+    text-align: center;
+}
+
+.price {
+    padding: 55px 0px;
+}
+
+.package-button {
+    padding: 0.2em;
+    border-radius: 3px;
+    margin: 20px 8px 8px 8px;
+    background-color:black;
+    display: inline-block;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    font-weight: 800;
+    font-size: .85em;
+    text-transform: uppercase;
+    text-align: center;
+    -webkit-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+    position: relative;
+    display: block !important;
 }

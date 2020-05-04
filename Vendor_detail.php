@@ -140,11 +140,11 @@
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star grey"></i>
                         <!-- Rating Angka Vendor -->
-                        <span class="badge">
+                        <span class="badge-new">
                             4.7 / 5
                         </span>
                         <!-- Review yang sudah diterima si Vendor -->
-                        <span class="badge">
+                        <span class="badge-new">
                             25 Review
                         </span>
                     </div>
@@ -189,7 +189,71 @@
                 <div class="vendor-info-tab"> 
                     <div class="tab-title">PRICE LIST</div>
                     
-                    <div class="vendor-package"> </div>
+                    <div class="vendor-package">
+                        <div class="wrapper-package row"> 
+                            <div class="col col-3">
+                                <div class="gallery-align">
+                                    <img src="assets/img/vendor_package/package1.jpg" class="package-pic">
+                                </div>
+                            </div>
+                            <div class="col col-6">
+                                <div class="description-title">About us</div>
+                                <div class="desc-content">
+                                    <!-- 50 Words -->
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rutrum magna vel nunc rutrum lacinia at a turpis. Vestibulum at arcu nec erat vehicula sodales. Maecenas lobortis, libero in varius dignissim, massa ipsum blandit mauris, sed aliquet eros ante vel orci. Quisque justo ipsum, finibus quis sollicitudin iaculis, auctor a. 
+                                </div>
+                            </div>
+                            <div class="col col-3">
+                                <div class="price">
+                                    <div class="price-currency">Rp</div>
+                                    <div class="price-title">750.000</div>
+                                    <div class="package-button">
+                                        <a href="#">ADD TO CART</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vendor-info-tab"> 
+                    <div class="tab-title">GALLERY</div>
+                    
+                    <div class="wrapper-gallery row"> 
+                        <div class="col col-4">
+                            <div class="gallery-align"> 
+                                <img src="assets/img/vendor_package/package1.jpg" class="gallery-pic">
+                            </div>
+                        </div>
+                        <div class="col col-4"> 
+                            <div class="gallery-align"> 
+                                <img src="assets/img/vendor_package/package1.jpg" class="gallery-pic">
+                            </div>
+                        </div>
+                        <div class="col col-4"> 
+                            <div class="gallery-align"> 
+                                <img src="assets/img/vendor_package/package1.jpg" class="gallery-pic">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="wrapper-gallery row"> 
+                        <div class="col col-4">
+                            <div class="gallery-align"> 
+                                <img src="assets/img/vendor_package/package1.jpg" class="gallery-pic">
+                            </div>
+                        </div>
+                        <div class="col col-4"> 
+                            <div class="gallery-align"> 
+                                <img src="assets/img/vendor_package/package1.jpg" class="gallery-pic">
+                            </div>
+                        </div>
+                        <div class="col col-4"> 
+                            <div class="gallery-align"> 
+                                <img src="assets/img/vendor_package/package1.jpg" class="gallery-pic">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
