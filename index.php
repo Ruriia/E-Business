@@ -134,7 +134,6 @@ session_start();
             </div>
         </div>
         <!-- Shop Method End-->
-        
     </main>
     <?php include('footer.php'); ?>
 </html>
