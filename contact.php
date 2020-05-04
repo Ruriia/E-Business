@@ -78,6 +78,13 @@
                                 <p>Send us feedback , your feedback is valueable!</p>
                             </div>
                         </div>
+                        <div class="media contact-info">
+                            <span class="contact-info__icon"><i class="ti-instagram"></i></span>
+                            <div class="media-body">
+                            <h3><li><a href="https://www.instagram.com/sovent.id/">sovent.id</a></li></h3>
+                                <p>Follow our social media </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

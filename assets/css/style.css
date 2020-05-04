@@ -31,12 +31,14 @@
 .white-bg {
   background: #ffffff;
 }
+.partner_img {
+  max-width: 50px;
+}
 
 /* line 40, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_color.scss */
 .gray-bg {
   background: #f5f5f5;
 }
-
 /*-------------Color include--------------*/
 /*-- Background color---*/
 /* line 82, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_color.scss */
@@ -6747,12 +6749,17 @@ input:focus {
   font-size: 16px;
   margin-bottom: 0;
   font-size: 16px;
-  color: #2a2a2a;
+  color: #727272;
 }
-
+.contact-info .media-body h3 li a{
+  font-size: 16px;
+  margin-bottom: 0;
+  font-size: 16px;
+  color: #727272;
+}
 /* line 30, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_contact.scss */
 .contact-info .media-body h3 a:hover {
-  color: #222222;
+  color: #002fff;
 }
 
 /* line 36, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_contact.scss */
