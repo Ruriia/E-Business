@@ -2,7 +2,7 @@
 #call config.php to establish connection with localhost
 require 'CONFIG.php';
 
-session_start();
+
 
 
 ?>
