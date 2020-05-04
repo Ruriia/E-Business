@@ -188,6 +188,8 @@
 
                 <div class="vendor-info-tab"> 
                     <div class="tab-title">PRICE LIST</div>
+                    
+                    <div class="vendor-package"> </div>
                 </div>
             </div>
         </div>
