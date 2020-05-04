@@ -1,0 +1,129 @@
+.test {
+    height: 300px;
+}
+
+.info-picture {
+    position: relative;
+    height: 240px;
+    width: 300px;
+    border-radius: 10px 10px 0 0;
+    float: left;
+    margin-bottom: 15px;
+}
+
+.card-border {
+    border-style: solid;
+    border-width: thin;
+    border-color:lightgray;
+    border-radius: 10px;
+}
+
+.subinfo-border {
+    margin: 15px 20px;
+    border-style: solid;
+    border-width: thin;
+    border-color:lightgray;
+    border-radius: 5px;
+}
+
+.icon-size {
+    margin: 7px;
+    max-width: 25px;
+    max-height: 25px;
+}
+
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    box-sizing: border-box;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 1000px;
+}
+
+.col {
+    float: left;
+    box-sizing: border-box;
+}
+
+.row>.col-4 {
+    width: 25%;
+}
+
+.row>.col-8 {
+    width: 75%;
+}
+
+.sosial-content {
+    letter-spacing: .2px !important;
+    padding-left: 15px;
+    vertical-align: middle;
+    line-height: calc(1em+4px);
+    font-size: 12px;
+    font-weight: 400;
+    word-break: break-all;
+}
+
+.social-info {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    vertical-align: baseline;
+    word-break: break-all;
+    letter-spacing: 1.2px;
+    padding: 1px 5px 1px 5px;
+    margin: 2px;
+}
+
+.vendor-about {
+    align-self: center;
+    border-style: solid;
+    border-width: thin;
+    border-color:lightgray;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+.description-title {
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.desc-content {
+    letter-spacing: .2px !important;
+    vertical-align: middle;
+    line-height: calc(1em+4px);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.vendor-info-tab {
+    border-style: solid;
+    border-width: thin;
+    border-color:lightgray;
+    border-radius: 5px;
+    height: 300px;
+    margin-bottom: 8px;
+}
+
+.tab-title {
+    position: relative;
+    font-size: 13px;
+    font-weight: 300;
+    background-color: white;
+    color:black;
+    padding: 2px 5px;
+    border-radius: 4px;
+    top: -2px;
+    margin: 8px;
+    width: 100%;
+    box-shadow: 2px 3px 1px gainsboro;
+    border-style: solid;
+    border-width: thin;
+    border-color:lightgray;
+}
