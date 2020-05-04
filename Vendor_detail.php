@@ -368,42 +368,39 @@
 
                 <div class="vendor-info-tab"> 
                     <div class="tab-title">Review</div>
-                    
-                    <div class="wrapper-gallery row"> 
-                        <div class="col col-4">
-                            <div class="gallery-align"> 
-                                <img src="assets/img/vendor_package/package1.jpg" class="gallery-pic">
-                            </div>
-                        </div>
-                        <div class="col col-4"> 
-                            <div class="gallery-align"> 
-                                <img src="assets/img/vendor_package/package1.jpg" class="gallery-pic">
-                            </div>
-                        </div>
-                        <div class="col col-4"> 
-                            <div class="gallery-align"> 
-                                <img src="assets/img/vendor_package/package1.jpg" class="gallery-pic">
-                            </div>
-                        </div>
-                    </div>
+                    <?php
+                        if($reviewfetch['total'] != 0):
+                            $reviewquery = "SELECT * FROM review_vendor WHERE vendor_id = ?";
+                            $reviewresult = $key->prepare($reviewquery);
+                            $reviewresult->execute([$_GET['product']]);
+                            while($reviewvendor = $reviewresult->fetch()):
+                                $detailreviewer = "SELECT * FROM tabel_user WHERE user_id = ?";
+                                $resultdetail = $key->prepare($detailreviewer);
+                                $resultdetail->execute([$reviewvendor['reviewer_id']]);
+                                $reviewdetail = $resultdetail->fetch();
 
-                    <div class="wrapper-gallery row"> 
-                        <div class="col col-4">
-                            <div class="gallery-align"> 
-                                <img src="assets/img/vendor_package/package1.jpg" class="gallery-pic">
+                    ?>
+                    <div class="wrapper-package row">
+                            
+                            <div class="col col-3">
+                                <div class="gallery-align">
+                                    <img src="<?= $reviewdetail['user_img']?>" class="package-pic">
+                                </div>
                             </div>
-                        </div>
-                        <div class="col col-4"> 
-                            <div class="gallery-align"> 
-                                <img src="assets/img/vendor_package/package1.jpg" class="gallery-pic">
+                            <div class="col col-6">
+                                <div class="description-title"><?= $reviewdetail['name']?></div>
+                                <div class="desc-content">
+                                    
+                                    <?= $reviewvendor['review_desc']?>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col col-4"> 
-                            <div class="gallery-align"> 
-                                <img src="assets/img/vendor_package/package1.jpg" class="gallery-pic">
-                            </div>
-                        </div>
+                            
                     </div>
+                    <?php
+                        echo "<br>";
+                    endwhile;
+                endif;
+                    ?>
                 </div>
             </div>
         </div>
