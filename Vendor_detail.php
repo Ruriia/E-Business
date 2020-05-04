@@ -372,7 +372,7 @@
                         if($reviewfetch['total'] != 0):
                             $reviewquery = "SELECT * FROM review_vendor WHERE vendor_id = ?";
                             $reviewresult = $key->prepare($reviewquery);
-                            $reviewresult = $key->execute([$_GET['product']]);
+                            $reviewresult->execute([$_GET['product']]);
                             while($reviewvendor = $reviewresult->fetch()):
                                 $detailreviewer = "SELECT * FROM tabel_user WHERE user_id = ?";
                                 $resultdetail = $key->prepare($detailreviewer);
@@ -390,19 +390,10 @@
                             <div class="col col-6">
                                 <div class="description-title"><?= $reviewdetail['name']?></div>
                                 <div class="desc-content">
-                                    <!-- 50 Words -->
+                                    
                                     <?= $reviewvendor['review_desc']?>
                                 </div>
                             </div>
-                            <div class="col col-3">
-                            <div class="price">
-                                <div class="price-currency">Rp</div>
-                                <div class="price-title"><?= $fetchproduct['product_price']?></div>
-                                <div class="package-button">
-                                    <a href="#">ADD TO CART</a>
-                                </div>
-                            </div>
-                        </div>
                             
                     </div>
                     <?php
