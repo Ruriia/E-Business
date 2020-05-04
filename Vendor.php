@@ -157,9 +157,8 @@
                             </span>
 
                             <!-- Tombol untuk akses info vendor -->
-                            <div class="card-button block">
-                                <a href="vendor_detail.php"> View Pricelist</a>
-                            </div>
+                            <a href="vendor_detail.php" class="card-button block"> View Pricelist</a>
+                            
 
                         </div> <!-- Product Desc End -->
                     </div> <!-- Card : Body End -->
