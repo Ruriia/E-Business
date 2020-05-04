@@ -20,7 +20,7 @@
     </div>
     <!-- slider Area End-->
 
-    <div class="wrapper row"> 
+    <div class="wrapper-list row"> 
         <div class="col col-4"> 
             <!-- Card for vendor Start -->
             <!-- Container Start -->
