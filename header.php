@@ -82,7 +82,7 @@
                                        </nav>
                                    </div>
                                </div> 
-                               <div class="col-xl-5 col-lg-3 col-md-3 col-sm-3 fix-card">
+                               <div class="col-xl-5 col-lg-3 col-md-3 fix-card">
                                    <ul class="header-right f-right d-none d-lg-block d-flex justify-content-between">
                                        <li class="d-none d-xl-block">
                                            <div class="form-box f-right ">
@@ -92,11 +92,6 @@
                                                </div>
                                            </div>
                                         </li>
-                                       <li class=" d-none d-xl-block">
-                                           <div class="favorit-items">
-                                               <i class="far fa-heart"></i>
-                                           </div>
-                                       </li>
                                        <li>
                                            <div class="shopping-card">
                                                <a href="cart.php"><i class="fas fa-shopping-cart"></i></a>

@@ -100,24 +100,38 @@
                     <div class="client_review_slider owl-carousel">
                         <div class="single_client_review">
                             <div class="client_img">
-                                <img src="assets/img/client.png" alt="#">
+                                <img src="assets/img/jessica.png" alt="#">
                             </div>
-                            <p>"Working in conjunction with humanitarian aid agencies, we have supported programmes to help alleviate human suffering.</p>
-                            <h5>- Micky Mouse</h5>
+                            <p>"Saya sangat senang dengan adanya sovent, karena saya malas dan bingung mencari vendor” cake dan table decor di social media atau internet secara satu”. 
+                            Dengan adanya sovent, saya dapat menemukan vendor dengan cepat dan sesuai budget, sangat recommended!!"</p>
+                            <h5>- Jesica Caroline-</h5>
                         </div>
                         <div class="single_client_review">
                             <div class="client_img">
-                                <img src="assets/img/client_1.png" alt="#">
+                                <img src="assets/img/bianca.png" alt="#">
                             </div>
-                            <p>"Working in conjunction with humanitarian aid agencies, we have supported programmes to help alleviate human suffering.</p>
-                            <h5>- Micky Mouse</h5>
+                            <p>"Melaui Sovent, saya dapat dengan mudah menemukan dan terhubung dengan vendor
+                             yang tepat untuk membantu proyek event sekolah berdasarkan budget saya. 
+                            Sekarang, beban kerja saya jauh menurun semuanya lebih mudah dikelola."</p>
+                            <h5>- Bianca Yoana -</h5>
                         </div>
                         <div class="single_client_review">
                             <div class="client_img">
-                                <img src="assets/img/client_2.png" alt="#">
+                                <img src="assets/img/brenda.png" alt="#">
                             </div>
-                            <p>"Working in conjunction with humanitarian aid agencies, we have supported programmes to help alleviate human suffering.</p>
-                            <h5>- Micky Mouse</h5>
+                            <p>"Sovent sangat membantu saya dalam menemukan
+                            vendor- vendor berkualitas untuk acara ulang tahun saya,
+                             tentunya dengan harga yang terjangkau."</p>
+                            <h5>- Brenda Paramitha -</h5>
+                        </div>
+                        <div class="single_client_review">
+                            <div class="client_img">
+                                <img src="assets/img/kresta.png" alt="#">
+                            </div>
+                            <p>"Sovent bener2 bantu aku banget buat cari-cari vendor buat acara ulang tahunku! 
+                            Disini aku punya banyak banget pilihan vendor dan yang pasti vendor2nya bukan vendor abal-abal. 
+                            Tinggal sesuain deh sama budget aku. Thank you Sovent!!"</p>
+                            <h5>- Christina Krestanti-</h5>
                         </div>
                     </div>
                 </div>
