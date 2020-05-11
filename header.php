@@ -92,7 +92,7 @@
                                            <ul id="navigation">                                                                                                                                     
    
                                                <li><a href="index.php">Home</a></li>
-                                               <li><a href="Event.php">Event</a></li>
+                                               <li><a href="blog.php">Event</a></li>
                                                <li><a href="#">Vendor</a>
                                                    <ul class="submenu">
                                                        <li><a href="Vendor.php">Vendor List</a></li>
