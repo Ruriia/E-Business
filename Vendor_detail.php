@@ -378,7 +378,6 @@
                                 $resultdetail = $key->prepare($detailreviewer);
                                 $resultdetail->execute([$reviewvendor['reviewer_id']]);
                                 $reviewdetail = $resultdetail->fetch();
-
                     ?>
                     <div class="wrapper-package row">
                             
