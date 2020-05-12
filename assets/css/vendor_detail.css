@@ -241,3 +241,12 @@
     position: relative;
     display: block !important;
 }
+
+.payment-qrcode {
+    height: 400px;
+    width: 400px;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
