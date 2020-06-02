@@ -353,7 +353,7 @@
                                     <div class="price-currency">Rp</div>
                                     <div class="price-title"><?= $fetchproduct['product_price']?></div>
                                     <div class="package-button">
-                                        <a href="#">ADD TO CART</a>
+                                        <a href="addtocart.php?prodid=<?= $fetchproduct['product_id']?>&vendor=<?= $_GET['product']?>">ADD TO CART</a>
                                     </div>
                                 </div>
                             </div>

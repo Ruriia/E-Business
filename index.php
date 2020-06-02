@@ -2,9 +2,6 @@
 #call config.php to establish connection with localhost
 require 'CONFIG.php';
 
-
-
-
 ?>
 
 <!doctype html>
@@ -66,7 +63,7 @@ require 'CONFIG.php';
                     <div class="client_review_slider owl-carousel">
                         <div class="single_client_review">
                             <div class="client_img">
-                                <img src="assets/img/jessica.png" alt="#">
+                                <img src="assets/img/user_profile/jessica.png" alt="#">
                             </div>
                             <p>"Saya sangat senang dengan adanya sovent, karena saya malas dan bingung mencari vendor” cake dan table decor di social media atau internet secara satu”. 
                             Dengan adanya sovent, saya dapat menemukan vendor dengan cepat dan sesuai budget, sangat recommended!!"</p>
@@ -74,7 +71,7 @@ require 'CONFIG.php';
                         </div>
                         <div class="single_client_review">
                             <div class="client_img">
-                                <img src="assets/img/bianca.png" alt="#">
+                                <img src="assets/img/user_profile/bianca.png" alt="#">
                             </div>
                             <p>"Melaui Sovent, saya dapat dengan mudah menemukan dan terhubung dengan vendor
                              yang tepat untuk membantu proyek event sekolah berdasarkan budget saya. 
@@ -83,7 +80,7 @@ require 'CONFIG.php';
                         </div>
                         <div class="single_client_review">
                             <div class="client_img">
-                                <img src="assets/img/brenda.png" alt="#">
+                                <img src="assets/img/user_profile/brenda.png" alt="#">
                             </div>
                             <p>"Sovent sangat membantu saya dalam menemukan
                             vendor- vendor berkualitas untuk acara ulang tahun saya,
@@ -92,7 +89,7 @@ require 'CONFIG.php';
                         </div>
                         <div class="single_client_review">
                             <div class="client_img">
-                                <img src="assets/img/kresta.png" alt="#">
+                                <img src="assets/img/user_profile/kresta.png" alt="#">
                             </div>
                             <p>"Sovent bener2 bantu aku banget buat cari-cari vendor buat acara ulang tahunku! 
                             Disini aku punya banyak banget pilihan vendor dan yang pasti vendor2nya bukan vendor abal-abal. 

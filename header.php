@@ -1,6 +1,6 @@
 <?php
   session_start();
-  $islogin = ($_SESSION['islogin'] == 1) ? 1 : 0 ;
+  $islogin = (isset($_SESSION['islogin'])) ? 1 : 0 ;
 ?>
 
 <head>
